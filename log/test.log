@@ -66,6 +66,7 @@ Started GET "/hello_world" for 127.0.0.1 at 2019-10-01 21:10:09 +0000
 Processing by StaticController#hello_world as HTML
 Completed 406 Not Acceptable in 17ms (ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
@@ -92,3 +93,5 @@ Processing by StaticController#hello_world as HTML
   Rendered static/hello_world.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 428ms (Views: 395.4ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+=======
+>>>>>>> e780b6352a9d0e03f2288e8d31b67560403d4de3

@@ -240,6 +240,7 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 Started GET "/" for 98.195.28.242 at 2019-10-01 21:14:46 +0000
 Processing by Rails::WelcomeController#index as HTML
   Parameters: {"internal"=>true}
@@ -445,5 +446,22 @@ Processing by StaticController#hello_world as HTML
   Rendering static/hello_world.html.erb within layouts/application
   Rendered static/hello_world.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+=======
+>>>>>>> e780b6352a9d0e03f2288e8d31b67560403d4de3
+Started GET "/" for 98.195.28.242 at 2019-10-02 19:18:21 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 22ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 98.195.28.242 at 2019-10-02 19:18:31 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.html.erb within layouts/application
+  Rendered static/hello_world.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 768ms (Views: 766.6ms | ActiveRecord: 0.0ms)
 
 
